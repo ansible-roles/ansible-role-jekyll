@@ -1,0 +1,5 @@
+---
+
+jekyll_install: true
+jekyll_version: 2.5.3
+jekyll_rvm_path: rvm1_install_path|default('/usr/local/rvm')

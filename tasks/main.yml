@@ -1,0 +1,6 @@
+---
+
+- name: Jekyll | Install if needed
+  command: "{{ jekyll_rvm_path }}/bin/rvm all do gem install jekyll --version {{ jekyll_version }}"
+  when: jekyll_install != false
+
